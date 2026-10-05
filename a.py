@@ -32,7 +32,7 @@ print(f"Bottom Scorer: {bottom_scorer} ({min_score})")
 print(f"Average of Top and Bottom Scorer: {extreme_average:2f}\n")
 
 print("Student Grade Lookup")
-search_name = input("Enter the name of the student")
+search_name = input("Enter the name of the student: ")
 
 retrieved_score = grade_book.get(search_name)
 if retrieved_score is not None:
